@@ -54,7 +54,7 @@
             <i class="fab fa-facebook"></i>
         </div>
         <div class="links">
-            <p>Already have account?</p>
+            <p>Already have Account?</p>
             <button id="signInButton">Sign In</button>
         </div>
     </div>
@@ -78,7 +78,7 @@
             </p>
             <input type="submit" class="btn" value="Sign In" name="signIn">
         </form>
-        <p class="or">----------or--------</p>
+        <p class="or">----------or---------</p>
         <div id="g_id_onload"
              data-client_id="99747514378-t4opas7hqo3v94vteiu614iau1hnd6a1.apps.googleusercontent.com"
              data-callback="handleCredentialResponse">
