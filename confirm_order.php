@@ -99,7 +99,7 @@ unset($_SESSION['other_details']);
         <p class="confirmation-message">Thank you for your order! Your order has been confirmed.</p>
 
         <!-- Back to Homepage Button -->
-        <a href="index.php" class="back-button">Back to Homepage</a>
+        <a href="index.html" class="back-button">Back to Homepage</a>
     </div>
 </body>
 </html>
