@@ -30,7 +30,7 @@ session_start();
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
             
-            <label for="phone">Phone Number:</label>
+            <label for="phone">Contact Number:</label>
             <input type="text" id="phone" name="phone" required>
             
             <h2>Address Information</h2>
