@@ -1,1 +1,5 @@
-# mmk
+MMK: MOM'S MAGIC KITCHEN A WEB-BASED FOR ENHANCING PERSONALIZED FOOD DELIVERY WITH FOOD TRACKING
+
+Isidro, Kristine May E.
+Name, Mary Grace A.
+Legaspi, Allard Kehn D.
