@@ -16,8 +16,8 @@
         <ul class="menu-links">
             <span id="close-menu-btn" class="material-symbols-outlined">close</span>
             <li><a href="#">Home</a></li>
-            <li><a href="#contact-us">Contact us</a></li>
-            <li><a href="#about-us">About us</a></li> 
+            <li><a href="#contact-us">Contact Us</a></li>
+            <li><a href="#about-us">About Us</a></li> 
             <li><a href="login.php">SignUp/Login</a></li>
         </ul>
         <span id="hamburger-btn" class="material-symbols-outlined">menu</span>
