@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Account</title>
+    <title> My Account </title>
     <link rel="stylesheet" href="account.css">
 </head>
 <body>
@@ -14,13 +14,13 @@
             $profile_photo = isset($_SESSION['profile_photo']) ? $_SESSION['profile_photo'] : 'default.png';
             ?>
             <img src="<?php echo $profile_photo; ?>" alt="Profile Photo" class="profile-photo">
-            <button class="profile-button" onclick="openModal('upload-photo-modal')">Upload Your Photo</button>
+            <button class="profile-button" onclick="openModal('upload-photo-modal')">Upload your Photo</button>
         </div>
         
         <div class="account-actions">
-            <button class="action-button" onclick="openModal('edit-name-modal')">Edit Your Name</button>
-            <button class="action-button" onclick="openModal('change-password-modal')">Change Your Password</button>
-            <button class="action-button" onclick="openModal('edit-address-modal')">Edit Your Address Information</button>
+            <button class="action-button" onclick="openModal('edit-name-modal')">Edit your Name</button>
+            <button class="action-button" onclick="openModal('change-password-modal')">Change your Password</button>
+            <button class="action-button" onclick="openModal('edit-address-modal')">Edit your Address Information</button>
         </div>
 
         <!-- Upload Photo Modal -->
