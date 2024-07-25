@@ -60,7 +60,7 @@ unset($_SESSION['other_details']);
                 <p><strong>Barangay:</strong> <?php echo htmlspecialchars($address['barangay']); ?></p>
                 <p><strong>Other Details:</strong> <?php echo htmlspecialchars($address['other_details']); ?></p>
             <?php else: ?>
-                <p>No address provided.</p>
+                <p>no address provided.</p>
             <?php endif; ?>
         </div>
 
