@@ -48,7 +48,7 @@
             </div>
         </div>
 
-        <!-- Change Password Modal -->
+        
         <div id="change-password-modal" class="modal">
             <div class="modal-content">
                 <span class="close" onclick="closeModal('change-password-modal')">&times;</span>
