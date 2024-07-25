@@ -54,7 +54,7 @@
             <i class="fab fa-facebook"></i>
         </div>
         <div class="links">
-            <p>Already Have Account?</p>
+            <p>Already have account?</p>
             <button id="signInButton">Sign In</button>
         </div>
     </div>
