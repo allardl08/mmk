@@ -9,7 +9,7 @@ unset($_SESSION['district']);
 unset($_SESSION['barangay']);
 unset($_SESSION['other_details']);
 
-// Define random cancellation messages
+
 $messages = [
     "You have canceled your order. Feel free to explore more delicious options!",
     
@@ -18,7 +18,7 @@ $messages = [
     "You've canceled your order. Check out our menu for other tasty choices!"
 ];
 
-// Select a random message
+
 $random_message = $messages[array_rand($messages)];
 ?>
 <!DOCTYPE html>
