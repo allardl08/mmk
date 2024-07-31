@@ -1,0 +1,265 @@
+/* General Styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Container Styling */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.container:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.back-button-container {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.back-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+/* Weekly Planning Styling */
+.weekly-planning {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.date-selection, .meal-selection {
+    margin-bottom: 20px;
+}
+
+.date-selection input[type="date"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.meal-selection h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.item {
+    flex: 1 1 calc(33% - 30px);
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.item h3 {
+    margin: 10px 0;
+}
+
+.item p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.item label {
+    display: block;
+    margin-top: 10px;
+}
+
+.item-actions {
+    margin-top: 10px;
+}
+
+.add-to-cart-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Show More Button Styling */
+.show-more-btn {
+    display: block;
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.show-more-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Planned Meals Styling */
+.planned-meals {
+    margin-top: 20px;
+}
+
+#meal-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#meal-list li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Submit Button Styling */
+.submit-meal-plan-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.submit-meal-plan-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.submit-meal-plan-button:hover {
+    background-color: #218838;
+}
+
+/* Recommendations Section Styling */
+.recommendations-container {
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.recommendations-container h2 {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.recommendations-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.recommendations-container label {
+    font-weight: bold;
+}
+
+.recommendations-container textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    background-color: #fff;
+    resize: vertical;
+}
+
+.recommendations-container select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.recommendations-container .submit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.recommendations-container .submit-button:hover {
+    background-color: #0056b3;
+}
+
+.recommendations-result {
+    margin-top: 20px;
+}
+
+.recommendation-item {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+}
