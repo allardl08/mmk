@@ -22,7 +22,7 @@
         </div>
         <div class="side-menu" id="menu">
             <a href="account.php"><i class="fas fa-user"></i> My Account</a>
-            <a href="#"><i class="fas fa-cog"></i> Customize</a>
+            <a href="customize.php"><i class="fas fa-cog"></i> Customize</a>
             <a href="#"><i class="fas fa-shopping-bag"></i> Orders</a>
             <a href="login.php" onclick="logout()"><i class="fas fa-sign-out-alt"></i> Log Out</a>
         </div>
@@ -31,11 +31,11 @@
             <button onclick="filterMenu('breakfast')">Breakfast</button>
             <button onclick="filterMenu('lunch')">Lunch</button>
             <button onclick="filterMenu('dinner')">Dinner</button>
-            <button onclick="filterMenu('whats new?')">What's New?</button>
+            <button onclick="filterMenu('whats-new')">What's New?</button>
         </div>
         <div class="menu-items">
             <!-- Menu items will go here -->
-            <div class="item breakfast">
+            <div class="item lunch">
                 <img src="images/hotsilog.jpg" alt="Hotsilog">
                 <h3>HOTSILOG</h3>
                 <p>PHP 80</p>
@@ -53,6 +53,16 @@
                     <button class="add-to-cart-btn" onclick="addToCart(this.parentElement.parentElement)"><i class="fas fa-cart-plus"></i> Add to Cart</button>
                 </div>
             </div>
+            
+            <!-- Item 13: CHAMPORADO -->
+            <div class="item breakfast">
+                <img src="images/champorado.jpg" alt="Champorado">
+                <h3>CHAMPORADO</h3>
+                <p>PHP 70</p>
+                <div class="item-actions">
+                    <button class="add-to-cart-btn" onclick="addToCart(this.parentElement.parentElement)"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+                </div>
+            </div>
 
             <!-- Item 5: Kare-Kare -->
             <div class="item dinner">
@@ -61,8 +71,6 @@
                 <p>PHP 70</p>
                 <div class="item-actions">
                     <button class="add-to-cart-btn" onclick="addToCart(this.parentElement.parentElement)"><i class="fas fa-cart-plus"></i> Add to Cart</button>
-                   
-                    
                 </div>
             </div>
 
@@ -73,20 +81,16 @@
                 <p>PHP 70</p>
                 <div class="item-actions">
                     <button class="add-to-cart-btn" onclick="addToCart(this.parentElement.parentElement)"><i class="fas fa-cart-plus"></i> Add to Cart</button>
-                    
-                    
                 </div>
             </div>
 
             <!-- Item 6: Palabok -->
-            <div class="item lunch">
+            <div class="item breakfast">
                 <img src="images/palabok.jpg" alt="Palabok">
                 <h3>PALABOK</h3>
                 <p>PHP 70</p>
                 <div class="item-actions">
                     <button class="add-to-cart-btn" onclick="addToCart(this.parentElement.parentElement)"><i class="fas fa-cart-plus"></i> Add to Cart</button>
-                    
-                    
                 </div>
             </div>
 
@@ -97,8 +101,6 @@
                 <p>PHP 70</p>
                 <div class="item-actions">
                     <button class="add-to-cart-btn" onclick="addToCart(this.parentElement.parentElement)"><i class="fas fa-cart-plus"></i> Add to Cart</button>
-                    
-                    
                 </div>
             </div>
 
@@ -109,8 +111,6 @@
                 <p>PHP 60 8pcs </p>
                 <div class="item-actions">
                     <button class="add-to-cart-btn" onclick="addToCart(this.parentElement.parentElement)"><i class="fas fa-cart-plus"></i> Add to Cart</button>
-                    
-                    
                 </div>
             </div>
 
@@ -121,32 +121,6 @@
                 <p>PHP 70</p>
                 <div class="item-actions">
                     <button class="add-to-cart-btn" onclick="addToCart(this.parentElement.parentElement)"><i class="fas fa-cart-plus"></i> Add to Cart</button>
-                    
-                    
-                </div>
-            </div>
-
-            <!-- Item 10: Tapsilog -->
-            <div class="item breakfast">
-                <img src="images/tapsilog.jpg" alt="Tapsilog">
-                <h3>TAPSILOG</h3>
-                <p>PHP 70</p>
-                <div class="item-actions">
-                    <button class="add-to-cart-btn" onclick="addToCart(this.parentElement.parentElement)"><i class="fas fa-cart-plus"></i> Add to Cart</button>
-                    
-                    
-                </div>
-            </div>
-
-            <!-- Item 11: Tosilog -->
-            <div class="item breakfast">
-                <img src="images/tosilog.jpg" alt="Tosilog">
-                <h3>TOSILOG</h3>
-                <p>PHP 70</p>
-                <div class="item-actions">
-                    <button class="add-to-cart-btn" onclick="addToCart(this.parentElement.parentElement)"><i class="fas fa-cart-plus"></i> Add to Cart</button>
-                    
-                    
                 </div>
             </div>
 
@@ -157,20 +131,6 @@
                 <p>PHP 70</p>
                 <div class="item-actions">
                     <button class="add-to-cart-btn" onclick="addToCart(this.parentElement.parentElement)"><i class="fas fa-cart-plus"></i> Add to Cart</button>
-                    
-                    
-                </div>
-            </div>
-
-            <!-- Item 13: CHAMPORADO -->
-            <div class="item breakfast">
-                <img src="images/champorado.jpg" alt="Champorado">
-                <h3>CHAMPORADO</h3>
-                <p>PHP 70</p>
-                <div class="item-actions">
-                    <button class="add-to-cart-btn" onclick="addToCart(this.parentElement.parentElement)"><i class="fas fa-cart-plus"></i> Add to Cart</button>
-                    
-                    
                 </div>
             </div>
 
@@ -181,8 +141,6 @@
                 <p>PHP 70</p>
                 <div class="item-actions">
                     <button class="add-to-cart-btn" onclick="addToCart(this.parentElement.parentElement)"><i class="fas fa-cart-plus"></i> Add to Cart</button>
-                    
-                    
                 </div>
             </div>
 
@@ -193,36 +151,55 @@
                 <p>PHP 15</p>
                 <div class="item-actions">
                     <button class="add-to-cart-btn" onclick="addToCart(this.parentElement.parentElement)"><i class="fas fa-cart-plus"></i> Add to Cart</button>
-                    
-                    
+                </div>
+            </div>
+        </div>
+
+        <!-- What's New Items -->
+        <div class="menu-items">
+            <!-- Item 10: Tapsilog -->
+            <div class="item whats-new">
+                <img src="images/tapsilog.jpg" alt="Tapsilog">
+                <h3>TAPSILOG</h3>
+                <p>PHP 70</p>
+                <div class="item-actions">
+                    <button class="add-to-cart-btn" onclick="addToCart(this.parentElement.parentElement)"><i class="fas fa-cart-plus"></i> Add to Cart</button>
                 </div>
             </div>
 
-             <!-- Item 16: Chicksilog -->
-             <div class="item breakfast">
+            <!-- Item 11: Tosilog -->
+            <div class="item whats-new">
+                <img src="images/tosilog.jpg" alt="Tosilog">
+                <h3>TOSILOG</h3>
+                <p>PHP 70</p>
+                <div class="item-actions">
+                    <button class="add-to-cart-btn" onclick="addToCart(this.parentElement.parentElement)"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+                </div>
+            </div>
+
+
+            <!-- Item 16: Chicksilog -->
+            <div class="item whats-new">
                 <img src="images/chicksilog.jpg" alt="Chicksilog">
                 <h3>CHICKSILOG</h3>
                 <p>PHP 80</p>
                 <div class="item-actions">
                     <button class="add-to-cart-btn" onclick="addToCart(this.parentElement.parentElement)"><i class="fas fa-cart-plus"></i> Add to Cart</button>
-                    
-                    
                 </div>
             </div>
 
-             <!-- Item 17: Bangsilog -->
-             <div class="item breakfast">
+            <!-- Item 17: Bangsilog -->
+            <div class="item whats-new">
                 <img src="images/bangsilog.jpg" alt="Bangsilog">
                 <h3>BANGSILOG</h3>
                 <p>PHP 80</p>
                 <div class="item-actions">
                     <button class="add-to-cart-btn" onclick="addToCart(this.parentElement.parentElement)"><i class="fas fa-cart-plus"></i> Add to Cart</button>
-                    
-                    
                 </div>
             </div>
         </div>
     </div>
+    
     <div class="cart-container" id="cart-container">
         <div class="cart">
             <button class="cart-exit-btn" onclick="closeCart()"><i class="fas fa-times"></i></button>
@@ -240,7 +217,21 @@
         document.getElementById('checkout-btn').addEventListener('click', function() {
             window.location.href = 'placeorder.php';
         });
-        
+
+        function filterMenu(category) {
+            var items = document.getElementsByClassName('item');
+            for (var i = 0; i < items.length; i++) {
+                if (category == 'all') {
+                    items[i].style.display = 'block';
+                } else {
+                    if (items[i].classList.contains(category)) {
+                        items[i].style.display = 'block';
+                    } else {
+                        items[i].style.display = 'none';
+                    }
+                }
+            }
+        }
     </script>
     
     <script src="homepage.js"></script>
